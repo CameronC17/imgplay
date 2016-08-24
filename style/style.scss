@@ -45,6 +45,7 @@ body {
 
             &:hover {
               background-color: yellow;
+              color: #000;
             }
           }
         }
@@ -67,7 +68,7 @@ body {
     #loadImagePanel {
       background-color: #99ccff;
       width: 300px;
-      height: 400px;
+      height: 200px;
       position: absolute;
       left: 0;
       right: 0;
@@ -75,7 +76,7 @@ body {
       border-radius: 6px;
       border: 2px solid black;
       z-index: 1;
-      transform: translateY(30%);
+      transform: translateY(100%);
       //display: none;
       //now for the stuff in the middle
       box-sizing: border-box;
@@ -105,6 +106,9 @@ body {
     background-color: #262626;
     width: 100%;
     height: 20px;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
   }
 
 
