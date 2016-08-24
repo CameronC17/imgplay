@@ -5,6 +5,7 @@
     <title>ImgPlay</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script type="text/javascript" src="js/imgloader.js"></script>
   </head>
   <body>
     <header>
@@ -30,10 +31,11 @@
       <section id="loadImagePanel">
         Welcome to imgplay<br>
         Please select an image.<br>
-        <input type="file" name="fileAdder" value="Select file">
+        <input type="file" id="imgUpload" name="fileAdder" value="Select file">
+        <input type="button" id="clicky" name="name" value="clicky">
       </section>
       <section id="imageCanvas">
-        <img src="http://placehold.it/700x500" alt="Lets work with this image!" />
+        <img src="http://placehold.it/700x500" alt="Lets work with this image!" id="mainImage"/>
       </section>
 
     </section>
