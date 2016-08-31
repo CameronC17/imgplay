@@ -14,9 +14,9 @@ document.getElementById('clicky').onclick = function() {
    }
    reader.readAsDataURL(file);
 
-   //document.getElementById('imgUpload').after(img);
-   document.getElementById('mainImage').src = img;
-   document.getElementById('loadImagePanel').style.display = "none";
+   document.getElementById('loadImagePanel').after(img);
+   //document.getElementById('mainImage').src = img.src;
+   //document.getElementById('loadImagePanel').style.display = "none";
 
   };
 
