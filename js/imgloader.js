@@ -16,7 +16,7 @@ document.getElementById('imgUpload').onchange = function(e) {
           document.getElementById('mainImage').style.width = "800px";
         }
         else {
-          document.getElementById('mainImage').style.height = "600px";
+          document.getElementById('mainImage').style.height = "550px";
         }
 
 

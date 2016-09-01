@@ -39,7 +39,10 @@ body {
       width: 100%;
       height: 25px;
       background-color: #004080;
-      float: left; }
+      float: left;
+      padding-top: 4px;
+      padding-left: 4px;
+      box-sizing: border-box; }
   body #maincontent {
     text-align: center;
     position: relative;
